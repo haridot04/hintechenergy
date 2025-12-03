@@ -20,7 +20,7 @@ export function Footer() {
                             </h2>
                         </div>
                         <div className="flex gap-4">
-                            <Link href="#" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300">
+                            <Link href="https://www.linkedin.com/company/hintech-energy/" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300">
                                 <Linkedin className="w-5 h-5" />
                             </Link>
                             <Link href="#" className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center hover:bg-white hover:text-black transition-all duration-300">

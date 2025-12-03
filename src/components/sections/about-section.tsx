@@ -53,7 +53,7 @@ export function AboutSection() {
                                     <span className="font-bold leading-none">Akshay S</span>
                                     <span className="text-xs text-white/70">Cofounder</span>
                                 </div>
-                                <Link href="#" className="ml-auto mr-4 text-white hover:text-white/80 transition-colors">
+                                <Link href="https://www.linkedin.com/in/akshay-s-7b3279181/" className="ml-auto mr-4 text-white hover:text-white/80 transition-colors">
                                     <Linkedin className="w-6 h-6 fill-current" />
                                 </Link>
                             </div>
@@ -72,7 +72,7 @@ export function AboutSection() {
                                     <span className="font-bold leading-none">Sonal Rajesh</span>
                                     <span className="text-xs text-white/70">Cofounder</span>
                                 </div>
-                                <Link href="#" className="ml-auto mr-4 text-white hover:text-white/80 transition-colors">
+                                <Link href="https://www.linkedin.com/in/sonal-rajesh/" className="ml-auto mr-4 text-white hover:text-white/80 transition-colors">
                                     <Linkedin className="w-6 h-6 fill-current" />
                                 </Link>
                             </div>

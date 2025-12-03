@@ -45,7 +45,7 @@ export function ResourcesSection() {
                             className="group relative bg-[#f5f5f7] rounded-[2.5rem] p-8 md:p-10 h-[500px] flex flex-col justify-between overflow-hidden transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
                         >
                             {/* Hover Arrow */}
-                            <div className="absolute top-8 right-8 bg-black text-white w-10 h-10 rounded-full flex items-center justify-center opacity-0 translate-y-4 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 z-10">
+                            <div className="absolute top-8 right-8 bg-black text-white w-10 h-10 rounded-full flex items-center justify-center opacity-100 translate-y-0 md:opacity-0 md:translate-y-4 transition-all duration-300 md:group-hover:opacity-100 md:group-hover:translate-y-0 z-10">
                                 <ArrowUpRight className="w-5 h-5" />
                             </div>
 
