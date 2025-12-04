@@ -90,7 +90,7 @@ export function Navbar() {
                                 </Link>
                             ))}
                             <Link
-                                href="/contact"
+                                href="#"
                                 className="text-4xl font-medium text-white hover:text-white/80 transition-colors"
                                 onClick={() => setIsOpen(false)}
                             >

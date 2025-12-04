@@ -21,7 +21,7 @@ const locations = {
             "CNG Cascade Maintenance",
             "Customised CGD Services"
         ],
-        link: "/contact?location=palakkad"
+        link: "#"
     },
     vadakara: {
         name: "Vadakara",
@@ -32,7 +32,7 @@ const locations = {
             "Safety Audits",
             "Emergency Support"
         ],
-        link: "/contact?location=vadakara"
+        link: "#"
     }
 };
 
@@ -101,7 +101,7 @@ export function LocationsClientsSection() {
                                 </ul>
 
                                 <Button asChild className="w-fit rounded-full bg-black text-white hover:bg-black/80 border-none px-8 h-14 text-lg group">
-                                    <a href={currentLocation.link} className="flex items-center gap-2">
+                                    <a href="#" className="flex items-center gap-2">
                                         Book Now
                                         <ArrowUpRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                                     </a>
