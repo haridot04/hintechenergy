@@ -57,7 +57,7 @@ export function Footer() {
                     <div className="md:col-span-2">
                         <h3 className="text-lg font-medium mb-6 text-white/50">Get in Touch</h3>
                         <ul className="space-y-4">
-                            <li className="text-lg">contact@hintechenergy.com</li>
+                            <li className="text-lg">sales@hintechenergy.com</li>
                             <li className="text-lg">+91 97785 02991</li>
                             <li className="text-lg">Palakkad, Kerala</li>
                         </ul>

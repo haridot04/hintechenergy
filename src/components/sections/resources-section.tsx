@@ -3,25 +3,26 @@
 import React from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import Image from "next/image";
 import { FadeIn } from "@/components/ui/fade-in";
 
 const resources = [
     {
         title: "The Proactive Safety Check Every CNG Cylinder Needs.",
         description: "Hydrostretch Testing reveals early signs of material fatigue and structural weakness, helping operators prevent failures, minimize downtime, and extend cylinder life.",
-        gradient: "from-blue-400 to-cyan-300",
+        image: "/images/blog1.jpg",
         link: "/blogs/proactive-safety-check-cng"
     },
     {
         title: "Ultrasonic Flaw Detection in CNG Cylinder.",
         description: "Ultrasonic Testing uses high-frequency sound waves to detect internal cracks, voids, and wall thinning—ensuring CNG cylinders meet safety and compliance.",
-        gradient: "from-green-400 to-emerald-300",
+        image: "/images/blog2.jpg",
         link: "/blogs/ultrasonic-flaw-detection-cng"
     },
     {
         title: "Real CNG Cylinder Explosions in India.",
         description: "From minor injuries to severe infrastructure damage, Delhi’s past CNG accidents show how improper cylinder testing and unsafe fittings can lead to catastrophic outcomes.",
-        gradient: "from-purple-400 to-pink-300",
+        image: "/images/blog3.jpg",
         link: "/blogs/real-cng-cylinder-explosions-india"
     }
 ];
@@ -60,7 +61,14 @@ export function ResourcesSection() {
 
                             {/* Bottom Graphic */}
                             <div className="flex justify-center mt-auto pt-10">
-                                <div className={`w-48 h-48 rounded-full bg-gradient-to-br ${resource.gradient} blur-sm opacity-80 group-hover:scale-110 transition-transform duration-500 shadow-2xl`}></div>
+                                <div className="relative w-48 h-48 rounded-full overflow-hidden shadow-2xl group-hover:scale-110 transition-transform duration-500 border-4 border-white/50 backdrop-blur-sm">
+                                    <Image
+                                        src={resource.image}
+                                        alt={resource.title}
+                                        fill
+                                        className="object-cover"
+                                    />
+                                </div>
                             </div>
                         </Link>
                     ))}

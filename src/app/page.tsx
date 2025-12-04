@@ -47,8 +47,10 @@ export default function Home() {
                 </FadeIn>
                 <FadeIn delay={400}>
                   <div className="flex justify-center">
-                    <Button size="lg" className="rounded-full bg-black text-white hover:bg-black/80 text-lg px-8 h-14 group">
-                      Book Now <ArrowUpRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                    <Button asChild size="lg" className="rounded-full bg-black text-white hover:bg-black/80 text-lg px-8 h-14 group">
+                      <Link href="https://calendly.com/hintechenergy/booking">
+                        Book Now <ArrowUpRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+                      </Link>
                     </Button>
                   </div>
                 </FadeIn>
@@ -91,7 +93,7 @@ export default function Home() {
 
                 {/* Bottom: Stats Box */}
                 <div className="h-auto bg-[#002a15] text-white py-10 px-6 flex flex-col justify-center items-center text-center">
-                  <div className="flex items-center gap-4 mb-2">
+                  <Link href="https://calendly.com/hintechenergy/booking" className="flex items-center gap-4 mb-2">
                     <div className="flex -space-x-3">
                       <img src="/images/avatars.png" alt="Customer Satisfaction" className="h-10 w-auto object-contain" />
                     </div>
@@ -99,7 +101,7 @@ export default function Home() {
                       <div className="text-2xl font-bold leading-none">98%</div>
                       <div className="text-xs text-slate-300">Customer Satisfaction</div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
 
@@ -118,21 +120,21 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
       {/* Services Section - Stacking Cards */}
-      <ServicesStack />
+      < ServicesStack />
 
       {/* About Section */}
-      <AboutSection />
+      < AboutSection />
 
       {/* Resources Section */}
-      <ResourcesSection />
+      < ResourcesSection />
 
       {/* Locations & Clients Section */}
-      <LocationsClientsSection />
+      < LocationsClientsSection />
 
       <Footer />
-    </div>
+    </div >
   );
 }

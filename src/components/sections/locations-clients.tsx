@@ -10,6 +10,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { FadeIn } from "@/components/ui/fade-in";
+import Image from "next/image";
 
 const locations = {
     palakkad: {
@@ -101,7 +102,7 @@ export function LocationsClientsSection() {
                                 </ul>
 
                                 <Button asChild className="w-fit rounded-full bg-black text-white hover:bg-black/80 border-none px-8 h-14 text-lg group">
-                                    <a href="#" className="flex items-center gap-2">
+                                    <a href="https://calendly.com/hintechenergy/booking" className="flex items-center gap-2">
                                         Book Now
                                         <ArrowUpRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
                                     </a>
@@ -119,12 +120,13 @@ export function LocationsClientsSection() {
                             <div className="grid grid-cols-1 gap-8 w-full">
                                 {/* Client 1: IOAG */}
                                 <div className="flex flex-col items-center justify-center gap-4 group">
-                                    <div className="w-32 h-32 rounded-full bg-white shadow-sm flex items-center justify-center p-4 group-hover:scale-105 transition-transform duration-300">
-                                        {/* Placeholder for IOAG Logo since we don't have the asset */}
-                                        <div className="text-center font-bold text-[#1d1d1f] leading-tight">
-                                            <span className="text-orange-500">IO</span>
-                                            <span className="text-blue-600">AG</span>
-                                        </div>
+                                    <div className="w-32 h-32 rounded-full bg-white shadow-sm flex items-center justify-center p-4 group-hover:scale-105 transition-transform duration-300 overflow-hidden relative">
+                                        <Image
+                                            src="/images/ioag_logo.png"
+                                            alt="IndianOil-Adani Gas Pvt. Ltd."
+                                            fill
+                                            className="object-contain p-2"
+                                        />
                                     </div>
                                     <span className="text-center text-sm font-medium text-gray-500">IndianOil-Adani Gas Pvt. Ltd.</span>
                                 </div>
