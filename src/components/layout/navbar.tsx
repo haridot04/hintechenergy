@@ -41,7 +41,7 @@ export function Navbar() {
                 {/* CTA Button */}
                 <div className="hidden md:flex items-center">
                     <Button asChild size="lg" className="rounded-full bg-primary hover:bg-primary/90 text-white px-6 group">
-                        <Link href="/contact" className="flex items-center gap-2">
+                        <Link href="#" className="flex items-center gap-2">
                             Contact Us <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                         </Link>
                     </Button>

@@ -7,22 +7,22 @@ import { FadeIn } from "@/components/ui/fade-in";
 
 const resources = [
     {
-        title: "CNG Cylinder Testing Protocol",
-        description: "Comprehensive guide to safety protocols and regulatory requirements for periodic cylinder maintenance.",
+        title: "The Proactive Safety Check Every CNG Cylinder Needs.",
+        description: "Hydrostretch Testing reveals early signs of material fatigue and structural weakness, helping operators prevent failures, minimize downtime, and extend cylinder life.",
         gradient: "from-blue-400 to-cyan-300",
-        link: "#"
+        link: "/blogs/proactive-safety-check-cng"
     },
     {
-        title: "Hydrogen Fuel Safety Standards",
-        description: "Understanding the emerging safety standards for hydrogen fuel storage and distribution networks.",
+        title: "Ultrasonic Flaw Detection in CNG Cylinder.",
+        description: "Ultrasonic Testing uses high-frequency sound waves to detect internal cracks, voids, and wall thinning—ensuring CNG cylinders meet safety and compliance.",
         gradient: "from-green-400 to-emerald-300",
-        link: "#"
+        link: "/blogs/ultrasonic-flaw-detection-cng"
     },
     {
-        title: "Industrial Gas Distribution",
-        description: "Best practices for managing large-scale industrial gas distribution infrastructure efficiently.",
+        title: "Real CNG Cylinder Explosions in India.",
+        description: "From minor injuries to severe infrastructure damage, Delhi’s past CNG accidents show how improper cylinder testing and unsafe fittings can lead to catastrophic outcomes.",
         gradient: "from-purple-400 to-pink-300",
-        link: "#"
+        link: "/blogs/real-cng-cylinder-explosions-india"
     }
 ];
 

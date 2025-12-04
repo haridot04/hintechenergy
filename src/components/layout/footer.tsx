@@ -59,7 +59,7 @@ export function Footer() {
                         <ul className="space-y-4">
                             <li className="text-lg">contact@hintechenergy.com</li>
                             <li className="text-lg">+91 97785 02991</li>
-                            <li className="text-lg pt-4 text-white/70 leading-relaxed">Palakkad, Kerala</li>
+                            <li className="text-lg">Palakkad, Kerala</li>
                         </ul>
                     </div>
                 </div>
