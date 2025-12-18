@@ -12,6 +12,12 @@ const lato = Lato({
 export const metadata: Metadata = {
   title: "Hintech Energy",
   description: "Leading provider of CNG and energy solutions.",
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/icon-192.png",
+  },
 };
 
 export default function RootLayout({
