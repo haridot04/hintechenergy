@@ -14,9 +14,11 @@ export const metadata: Metadata = {
   description: "Leading provider of CNG and energy solutions.",
   manifest: "/manifest.json",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/icon-192.png",
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/favicon.png", type: "image/png" }
+    ],
+    apple: "/apple-touch-icon.png",
   },
 };
 
